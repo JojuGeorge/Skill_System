@@ -63,6 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Crew7Studio\PlayerStats.cs" />
+    <Compile Include="Assets\Scripts\Crew7Studio\PublicMethods.cs" />
+    <Compile Include="Assets\Scripts\SO\Attributes.cs" />
+    <Compile Include="Assets\Scripts\SO\Skills.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/JOJU/UNITY_PROJECTS/2D/Skill_System/Player_Skill/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

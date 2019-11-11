@@ -1,18 +1,28 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStats : MonoBehaviour
+namespace Crew7Studio
 {
-    // Start is called before the first frame update
-    void Start()
+    public class PlayerStats : MonoBehaviour
     {
-        
-    }
+        [Header("Main Player Stats")]
+        public string playerName;
+        public int playerLevel = 1;
+        public int playerXP = 0;
+        public int playerHP = 50;   // base = 50; +10 each level
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        [Header("Player Attributes")]
+        public List<PlayerAttributes> attributes = new List<PlayerAttributes>();
+
+        void Start()
+        {
+
+        }
+
+        void Update()
+        {
+
+        }
     }
 }
